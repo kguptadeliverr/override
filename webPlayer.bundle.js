@@ -32,6 +32,16 @@ function runner() {
     if (x) {
       x.remove();
     }
+    const videoTag = document.getElementById("video-tag")
+    if(videoTag) {
+      videoTag.style.height = "100vh";
+      videoTag.style.width = "100vw";
+      videoTag.style.zIndex = 100;
+    }
+    const sections = document.getElementsByTagName("section");
+    if(sections[0]){
+      sections[0].style.padding = 0;
+    }
   }, 2000);
 }
 //# sourceMappingURL=webPlayer.bundle.js.map
