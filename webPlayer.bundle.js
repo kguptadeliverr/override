@@ -42,6 +42,6 @@ function runner() {
     if(sections[0]){
       sections[0].style.padding = 0;
     }
-  }, 2000);
+  }, 4000);
 }
 //# sourceMappingURL=webPlayer.bundle.js.map
